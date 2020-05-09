@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.DreamApp"
+        version   = "1.0.2">
+
+    <name>DreamApp</name>
+
+
+    <description>
+        Hayal kurmaktan kaçınmayın.Bu uygulamamızda size farklı yöntemlerle zihninizi nasıl daha hızlı geliştirebileceğinizi göstermeye çalıştık.
+        Rüya ile gerçeği birleştirdik.
+        Ortaya çıkacak sonuçlar tamamen sizin hayalgücünüze baglıdır.
+    </description>
+
+    <author href="#" email="mete_dans@hotmail.com">
+        DreamTheMethh
+    </author>
+
+    
+    <content src="index.html" />
+    <access origin="*" />
+    <!-- Customize your app and platform with the preference element. -->
+    <preference name="android-minSdkVersion" value="16"/>
+    <preference name="android-targetSdkVersion" value="28"/>
+    
+    
+    
+
+</widget>
